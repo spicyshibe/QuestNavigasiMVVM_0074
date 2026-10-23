@@ -5,5 +5,5 @@
     <string name="Nama_Lengkap">Nama Lengkap</string>
     <string name="jenis_kelamin">Jenis Kelamin</string>
     <string name="Alamat">ALAMAT</string>
-    
+    <string name="tampil">Tampilan Data</string>
 </resources>
