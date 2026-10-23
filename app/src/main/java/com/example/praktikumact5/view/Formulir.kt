@@ -1,10 +1,15 @@
 package com.example.praktikumact5.view
 
+import android.R.attr.button
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
+import androidx.compose.material3.Button
 import androidx.compose.material3.DividerDefaults.Thickness
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
@@ -81,8 +86,14 @@ fun FormIsian(
                     .width(250.dp),
                 label = {Text(text = "Alamat")},
                 onValueChange = {},
-
             )
+            Spacer(modifier = Modifier.height(30.dp))
+            Button(
+                modifier = Modifier.fillMaxWidth(1f).padding(all = 25.dp),
+                onClick = OnSubmitBtnClick
+            ){
+
+            }
 
             }
 
