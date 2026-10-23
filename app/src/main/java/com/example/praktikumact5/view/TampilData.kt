@@ -4,4 +4,8 @@ import androidx.compose.runtime.Composable
 
 @OptIn(ExperimentalStdlibApi::class)
 @Composable
-fun TampilData (){}
+fun TampilData (
+    onBackBtnClick: ()->Unit
+){
+
+}
