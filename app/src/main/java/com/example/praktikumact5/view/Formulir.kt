@@ -34,4 +34,7 @@ fun FormIsian(
                 colors = TopAppBarDefaults.mediumTopAppBarColors(
                     colorResource(id = R.color.teal_700))
             ) }
-    ){ }
+    ){
+            isiRuang ->
+        }
+    }
