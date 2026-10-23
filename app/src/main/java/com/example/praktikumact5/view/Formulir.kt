@@ -2,6 +2,7 @@ package com.example.praktikumact5.view
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.DividerDefaults.Thickness
@@ -48,5 +49,13 @@ fun FormIsian(
                 label = {Text(text = "Nama Lengkap")},
                 onValueChange = {},
             )
+            HorizontalDivider(modifier = Modifier
+                .padding(20.dp)
+                .width(250.dp), thickness = Thickness,color = Color.Red)
+
+            Row {
+
+            }
+
         }
     }
